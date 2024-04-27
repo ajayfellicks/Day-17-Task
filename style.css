@@ -1,0 +1,50 @@
+h1 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.container {
+  background-color: #1c343c !important;
+  color: white;
+}
+
+img {
+  width: 18rem;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.card-main {
+  border: 1px solid white;
+  margin: 1rem;
+}
+
+.country {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.country p {
+  margin: 0;
+}
+
+.card-content {
+  background-image: linear-gradient(
+    to right,
+    rgb(219, 200, 162),
+    rgb(64, 82, 82)
+  ) !important;
+}
+.card-content p {
+  margin: 0;
+}
+
+button {
+  border: 1px solid white !important;
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem;
+  margin-bottom: 2rem !important;
+  margin-top: 1rem !important;
+}
