@@ -1,50 +1,43 @@
-h1 {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
-}
-
 .container {
-  background-color: #1c343c !important;
   color: white;
+  background-color: rgb(35, 64, 75);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-img {
-  width: 18rem;
-  padding: 2rem 1rem 1rem 1rem;
+.card {
+  border-radius: 10px !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 202, 163),
+    rgb(67, 89, 90)
+  );
+  margin-bottom: 10px !important;
+}
+
+.card .img-box {
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  margin: 30px auto 0 auto !important;
+  object-fit: scale-down;
+}
+
+.img-box img {
+  border-radius: 10px !important;
+  width: 90%;
+  align-self: center;
+  height: 100%;
+}
+
+.card-body {
+  padding-bottom: 50px !important;
+  display: flex;
+  line-height: 40px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-main {
-  border: 1px solid white;
-  margin: 1rem;
-}
-
-.country {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-}
-.country p {
-  margin: 0;
-}
-
-.card-content {
-  background-image: linear-gradient(
-    to right,
-    rgb(219, 200, 162),
-    rgb(64, 82, 82)
-  ) !important;
-}
-.card-content p {
-  margin: 0;
-}
-
-button {
-  border: 1px solid white !important;
-  color: white;
-  background-color: transparent;
-  padding: 0.5rem;
-  margin-bottom: 2rem !important;
-  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
 }
